@@ -69,6 +69,7 @@ AppItems/
 ├── composer.json
 ├── composer.lock
 └── README.md
+```
 
 ## 🌙 Modo oscuro
 
