@@ -32,6 +32,8 @@ Incluye un **dashboard dinámico**, validaciones del lado del servidor y soporte
 
 ## 📁 Estructura del proyecto
 
+## 📁 Estructura del proyecto
+
 ```txt
 AppItems/
 │
@@ -52,7 +54,6 @@ AppItems/
 │   │   ├── items-edit.php
 │   │   ├── items-update.php
 │   │   ├── items-delete.php
-│   │   
 │   │
 │   ├── validators/
 │   │   └── itemvalidator.php
@@ -64,7 +65,7 @@ AppItems/
 │       ├── create-item.php
 │       └── edit-item.php
 │
-├── vendor/                # Dependencias instaladas con Composer
+├── vendor/
 ├── composer.json
 ├── composer.lock
 └── README.md
