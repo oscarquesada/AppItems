@@ -32,7 +32,6 @@ Incluye un **dashboard dinámico**, validaciones del lado del servidor y soporte
 
 ## 📁 Estructura del proyecto
 
-## 📁 Estructura del proyecto
 
 ```txt
 AppItems/
