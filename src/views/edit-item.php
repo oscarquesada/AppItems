@@ -71,7 +71,7 @@ ob_start();
                                 Actualizar
                             </button>
 
-                            <a href="/prog3-clase5/items" class="btn btn-secondary">
+                            <a href="/AppItems/items" class="btn btn-secondary">
                                 Cancelar
                             </a>
                         </div>

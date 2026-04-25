@@ -9,7 +9,7 @@ use App\Models\Item;
 $id = $_POST['id'] ?? null;
 
 if ($id === null || !ctype_digit((string) $id)) {
-    header('Location: /prog3-clase5/items');
+    header('Location: /AppItems/items');
     exit;
 }
 
@@ -43,5 +43,5 @@ $item->price = (float) $cleanPrice;
 
 $item->save();
 
-header('Location: /prog3-clase5/items?msg=updated');
+header('Location: /AppItems/items?msg=updated');
 exit;

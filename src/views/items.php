@@ -31,7 +31,7 @@ ob_start();
         <p class="text-muted mb-0">CRUD visual usando Eloquent.</p>
     </div>
 
-    <a href="/prog3-clase5/items/new" class="btn btn-primary">
+    <a href="/AppItems/items/new" class="btn btn-primary">
         + Nuevo item
     </a>
 </div>
@@ -70,7 +70,7 @@ ob_start();
                             <td class="text-end">
                                 <div class="d-flex justify-content-end gap-2">
                                     <a 
-                                        href="/prog3-clase5/items/edit?id=<?= $item->id ?>" 
+                                        href="/AppItems/items/edit?id=<?= $item->id ?>" 
                                         class="btn btn-warning btn-sm"
                                     >
                                         Editar
@@ -110,7 +110,7 @@ ob_start();
 <!-- Modal -->
 <div class="modal fade" id="modalEliminar" tabindex="-1">
     <div class="modal-dialog">
-        <form method="POST" action="/prog3-clase5/items/delete" class="modal-content">
+        <form method="POST" action="/AppItems/items/delete" class="modal-content">
             
             <div class="modal-header">
                 <h5 class="modal-title">Confirmar eliminación</h5>

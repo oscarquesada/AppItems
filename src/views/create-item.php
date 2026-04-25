@@ -22,25 +22,26 @@ ob_start();
 
                     <?php if (!empty($errors)): ?>
                         <div class="alert alert-danger">
-                            <strong>Hay errores en el formulario:</strong>
-
-                            <ul class="mb-0 mt-2">
-                                <?php foreach ($errors as $error): ?>
-                                    <li><?= htmlspecialchars($error) ?></li>
-                                <?php endforeach; ?>
-                            </ul>
+                            Revisá los campos marcados en rojo.
                         </div>
                     <?php endif; ?>
 
                     <form method="POST" action="/AppItems/items">
+
                         <div class="mb-3">
                             <label class="form-label">Nombre</label>
                             <input 
                                 type="text" 
                                 name="name" 
-                                class="form-control"
+                                class="form-control <?= isset($errors['name']) ? 'is-invalid' : '' ?>"
                                 value="<?= htmlspecialchars((string) $old['name']) ?>"
                             >
+
+                            <?php if (isset($errors['name'])): ?>
+                                <div class="invalid-feedback">
+                                    <?= htmlspecialchars($errors['name'][0]) ?>
+                                </div>
+                            <?php endif; ?>
                         </div>
 
                         <div class="mb-3">
@@ -48,9 +49,15 @@ ob_start();
                             <input 
                                 type="number" 
                                 name="qty" 
-                                class="form-control"
+                                class="form-control <?= isset($errors['qty']) ? 'is-invalid' : '' ?>"
                                 value="<?= htmlspecialchars((string) $old['qty']) ?>"
                             >
+
+                            <?php if (isset($errors['qty'])): ?>
+                                <div class="invalid-feedback">
+                                    <?= htmlspecialchars($errors['qty'][0]) ?>
+                                </div>
+                            <?php endif; ?>
                         </div>
 
                         <div class="mb-4">
@@ -58,9 +65,15 @@ ob_start();
                             <input 
                                 type="text" 
                                 name="price" 
-                                class="form-control"
+                                class="form-control <?= isset($errors['price']) ? 'is-invalid' : '' ?>"
                                 value="<?= htmlspecialchars((string) $old['price']) ?>"
                             >
+
+                            <?php if (isset($errors['price'])): ?>
+                                <div class="invalid-feedback">
+                                    <?= htmlspecialchars($errors['price'][0]) ?>
+                                </div>
+                            <?php endif; ?>
                         </div>
 
                         <div class="d-flex gap-2">

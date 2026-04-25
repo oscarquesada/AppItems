@@ -49,7 +49,7 @@ if ($method === 'POST') {
             'price' => (float) $cleanPrice
         ]);
 
-        header('Location: /prog3-clase5/items?msg=created');
+        header('Location: /AppItems/items?msg=created');
         exit;
 
     } catch (\Throwable $e) {

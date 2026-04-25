@@ -202,7 +202,7 @@ $scripts = $scripts ?? '';
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom mb-4">
     <div class="container">
-        <a class="navbar-brand text-white" href="/prog3-clase5/">App Items</a>
+        <a class="navbar-brand text-white" href="/AppItems/">App Items</a>
 
         <div class="navbar-nav me-auto">
             <a class="nav-link" href="/AppItems/">Inicio</a>

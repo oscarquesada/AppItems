@@ -8,7 +8,7 @@ use App\Models\Item;
 $id = $_GET['id'] ?? null;
 
 if ($id === null || !ctype_digit((string) $id)) {
-    header('Location: /prog3-clase5/items');
+    header('Location: /AppItems/items');
     exit;
 }
 

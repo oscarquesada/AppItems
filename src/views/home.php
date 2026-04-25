@@ -60,7 +60,7 @@ ob_start();
                         <small class="text-muted">Items totales</small>
                     </div>
                 </div>
-                <a href="/prog3-clase5/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
+                <a href="/AppItems/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@ ob_start();
                         <small class="text-muted">Items activos</small>
                     </div>
                 </div>
-                <a href="/prog3-clase5/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
+                <a href="/AppItems/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@ ob_start();
                         <small class="text-muted">Valor total</small>
                     </div>
                 </div>
-                <a href="/prog3-clase5/items" class="small text-decoration-none d-block mt-3">Ver detalles</a>
+                <a href="/AppItems/items" class="small text-decoration-none d-block mt-3">Ver detalles</a>
             </div>
         </div>
     </div>
@@ -105,7 +105,7 @@ ob_start();
                         <small class="text-muted">Stock total</small>
                     </div>
                 </div>
-                <a href="/prog3-clase5/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
+                <a href="/AppItems/items" class="small text-decoration-none d-block mt-3">Ver todos</a>
             </div>
         </div>
     </div>
